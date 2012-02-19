@@ -1,0 +1,53 @@
+Content:
+
+1. Project
+2. License
+3. Development information
+4. Acknowledgement
+
+1. Project
+
+2. License
+
+3. Development information
+3.1. Coding style
+Coding style is mostly based on C# convention with some exceptions, and is not compatable with Android coding standards.
+  
+  Namespaces             Pascal style. All packages starts with <?>
+  
+  Class                  Pascal style. No prefixes and suffixes.
+  
+  Delegates              Pascal style. Ends with <Delegate>.
+  
+  Exceptions             Pascal style. Ends with <Exception>.
+  
+  Interfaces             Pascal style. Starts with <I> , i.e. IInterface.
+  
+  Enumerations           Pascal style. No prefixes and suffixes.
+  
+  Methods and Functions  Pascal style. Input variable followed by output variables.
+  
+  Public Properties      Pascal style. No prefixes and suffixes.
+  and Public Member 
+  
+  Private Properties     Camel style. Underscore prefix, no suffixes.
+  and Private Members
+
+  Constant Properites    Shouting style. No prefixes
+  or Members             and suffixes. For local variables use Camel.
+  
+  Methods and Function   Camel style. No prefixes and suffixes.
+  Properties
+
+  Parametres             Camel style. Starting with inputs followed by outputs.
+  
+  Indets                 All tabs will be converted to spaces. 4 spaces for one indent.
+                         Single line expresions (e.g. if (foo) bar;) are illegal.
+  
+  Line Width             80 columns.
+  
+  Braces                 Braces is opened in same line.
+  
+For more see: http://10rem.net/articles/net-naming-conventions-and-programming-standards---best-practices
+  
+4. Acknowledgement

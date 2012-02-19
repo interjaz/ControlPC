@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Slider Height="23" HorizontalAlignment="Left" Margin="24,21,0,0" Name="slider1" VerticalAlignment="Top" Width="100" />
+        <ProgressBar Height="29" HorizontalAlignment="Left" Margin="24,50,0,0" Name="progressBar1" VerticalAlignment="Top" Width="161" />
     </Grid>
 </Window>
